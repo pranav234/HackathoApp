@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff4d4d"
+    tools:context=".login_userr">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="80dp"
+    android:layout_marginBottom="80dp"
+    android:background="@drawable/button_background"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp"
+    android:backgroundTint="#ffff"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login!"
+        android:id="@+id/login_label"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:textColor="#333333"
+        android:fontFamily="@font/raleway_regular"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="70dp"
+        android:id="@+id/usname"
+        android:layout_below="@+id/login_label"
+        android:textColor="#333333"
+        android:fontFamily="@font/raleway_regular"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Username"
+        android:id="@+id/user_name"
+        android:layout_below="@+id/usname"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:textColor="#333333"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:fontFamily="@font/raleway_regular"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/user_name"
+        android:textColor="#333333"
+        android:fontFamily="@font/raleway_regular"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/user_pswrd"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_below="@id/user_name"
+        android:layout_marginTop="80dp"
+        android:hint="Enter Your Password"
+        android:textColor="#333333"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:fontFamily="@font/raleway_regular"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="#f8f9fa"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:background="@drawable/button_background"
+        android:backgroundTint="#584e4a"
+        android:id="@+id/login_as_user"
+        android:layout_below="@id/user_pswrd"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"/>
+
+</RelativeLayout>
+
+</RelativeLayout>

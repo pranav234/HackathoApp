@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "364907432034",
+    "firebase_url": "https://digitender-da2ad.firebaseio.com",
+    "project_id": "digitender-da2ad",
+    "storage_bucket": "digitender-da2ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:364907432034:android:8f6582999b494a01",
+        "android_client_info": {
+          "package_name": "com.example.pranav234.hackathonapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "364907432034-j5tmt8qtf5kvqo6gkajksf4c8upudtgj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pranav234.hackathonapp",
+            "certificate_hash": "74e35d350cdafbc3e9cc550d0b3e81306631297f"
+          }
+        },
+        {
+          "client_id": "364907432034-qg9g0hesr8rv5ers0uieqa0tp3bv21u8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuuZzLuRdWxtTLC_jAH1uC6t6NR7txdhI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "364907432034-qg9g0hesr8rv5ers0uieqa0tp3bv21u8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
